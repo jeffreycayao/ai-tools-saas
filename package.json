@@ -1,7 +1,8 @@
 {
-  "name": "template-2",
-  "version": "0.1.0",
+  "name": "ai-tools-saas",
+  "version": "1.0.0",
   "private": true,
+  "description": "AI-powered SaaS platform with multiple AI tools including chat, image generation, voice notes, and social features",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,28 +10,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "^0.0.48",
-    "@ai-sdk/openai": "^0.0.54",
+    "@ai-sdk/anthropic": "^1.2.12",
+    "@ai-sdk/openai": "^1.3.22",
     "@deepgram/sdk": "^3.6.0",
     "ai": "^3.3.20",
+    "autoprefixer": "^10.4.21",
     "date-fns": "^3.6.0",
     "firebase": "^10.13.0",
     "framer-motion": "^11.3.31",
     "lucide-react": "^0.436.0",
-    "next": "14.2.7",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-markdown": "^9.0.1",
     "replicate": "^0.32.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.7",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9.29.0",
+    "eslint-config-next": "^15.3.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
   }
 }
